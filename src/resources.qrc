@@ -64,6 +64,8 @@
         <file>languages/qt_de.qm</file>
         <file>languages/es.qm</file>
         <file>languages/qt_es.qm</file>
+        <file>languages/pt.qm</file>
+        <file>languages/qt_pt.qm</file>
     </qresource>
     <qresource prefix="/fonts">
         <file alias="mplusm">fonts/mplus-1m-medium.ttf</file>
