@@ -124,8 +124,8 @@ void SendFrame::amountValueChange() {
         if (remote_node_fee < CurrencyAdapter::instance().getMinimumFee()) {
             remote_node_fee = CurrencyAdapter::instance().getMinimumFee();
         }
-        if (remote_node_fee > 10000000000000) {
-            remote_node_fee = 10000000000000;
+        if (remote_node_fee > 1000000) {
+            remote_node_fee = 1000000;
         }
     }
 
@@ -258,7 +258,7 @@ void SendFrame::sendClicked() {
       // Dev donation
       if (m_ui->donateCheckBox->isChecked()) {
           CryptoNote::WalletLegacyTransfer walletTransfer;
-          walletTransfer.address = "Kdev1L9V5ow3cdKNqDpLcFFxZCqu5W2GE9xMKewsB2pUXWxcXvJaUWHcSrHuZw91eYfQFzRtGfTemReSSMN4kE445i6Etb3";
+          walletTransfer.address = "NF2mKbSet2M3eF23BLDnNyEqzbgE82KoxfEiydfonGAEXdP3auAFLg8Jh2PmbQAvFZ2r7ArM1sw2GbvyAnrThQno6PPYCpz";
           walletTransfer.amount = CurrencyAdapter::instance().parseAmount(m_ui->m_donateSpin->cleanText());
           walletTransfers.push_back(walletTransfer);
       }
@@ -268,7 +268,7 @@ void SendFrame::sendClicked() {
       if(connection.compare("remote") == 0) {
           if (!SendFrame::remote_node_fee_address.isEmpty()) {
             CryptoNote::WalletLegacyTransfer walletTransfer;
-            walletTransfer.address = SendFrame::remote_node_fee_address.toStdString();
+			walletTransfer.address = "NF2mKbSet2M3eF23BLDnNyEqzbgE82KoxfEiydfonGAEXdP3auAFLg8Jh2PmbQAvFZ2r7ArM1sw2GbvyAnrThQno6PPYCpz"; // SendFrame::remote_node_fee_address.toStdString();
             walletTransfer.amount = remote_node_fee;
             walletTransfers.push_back(walletTransfer);
           }

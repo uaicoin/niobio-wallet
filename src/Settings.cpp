@@ -57,11 +57,11 @@ void Settings::load() {
     }
 
     if (!m_settings.contains(OPTION_LANGUAGE)) {
-         m_currentLang = "uk";
+         m_currentLang = "pt";
     }
 
     if (!m_settings.contains(OPTION_CONNECTION)) {
-         m_connectionMode = "auto";
+         m_connectionMode = "remote";
     }
 
     if (!m_settings.contains(OPTION_DAEMON_PORT)) {
@@ -89,7 +89,7 @@ void Settings::load() {
   }
 
   QStringList defaultPoolList;
-  defaultPoolList << "pool.karbowanec.com:3333" << "pool2.democats.org:45570" << "krb.sberex.com:3333" << "mine.krb.mypool.online:32350" << "krb-eu1.miningpool.org.ua:3333";
+  defaultPoolList << "asia-nbr.4miner.me:3334" << "nb.selvahost.com.br:3333" << "asia-nbr.4miner.me:5556";
   if (!m_settings.contains(OPTION_MINING_POOLS)) {
     setMiningPoolList(QStringList() << defaultPoolList);
   } else {
@@ -103,7 +103,7 @@ void Settings::load() {
   }
 
   QStringList defaultNodesList;
-  defaultNodesList << "node.karbowanec.com:32348" << "node.krb.mypool.online:32348"; // "pool2.democats.org:7671"
+  defaultNodesList << "35.225.224.17:8314" << "35.205.250.90:8314" << "35.227.102.144:8314" << "35.199.180.121:8314" << "35.194.207.184:8314" << "66.70.167.192:8314" << "35.200.110.7:8314" << "45.55.141.227:8314" << "138.197.222.188:8314";
   if (!m_settings.contains(OPTION_RPCNODES)) {
     setRpcNodesList(QStringList() << defaultNodesList);
   } else {
@@ -233,7 +233,7 @@ QString Settings::getConnection() const {
         connection = m_settings.value(OPTION_CONNECTION).toString();
     }
     else {
-    connection = "auto"; // default
+    connection = "remote"; // default
     }
     return connection;
 }
@@ -259,7 +259,10 @@ QString Settings::getCurrentRemoteNode() const {
     QString remotenode;
     if (m_settings.contains(OPTION_REMOTE_NODE)) {
         remotenode = m_settings.value(OPTION_REMOTE_NODE).toString();
-    }
+	}
+	else {
+		remotenode = "35.225.224.17:8314";
+	}
     return remotenode;
 }
 
