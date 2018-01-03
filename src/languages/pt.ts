@@ -51,7 +51,7 @@
         <translation>Saldo</translation>
     </message>
     <message>
-        <source> kbr</source>
+        <source> krb</source>
         <translation> nbr</translation>
     </message>
     <message>
@@ -1218,7 +1218,7 @@ Você quer ir à página de dowload?</translation>
     <name>WalletGui::AboutDialog</name>
     <message>
         <source>About %1 Wallet</source>
-        <translation>Sobre a carteira NBR</translation>
+        <translation>Sobre</translation>
     </message>
 </context>
 <context>
@@ -1368,8 +1368,8 @@ Você quer ir à página de dowload?</translation>
         <translation>Execute o programa minimizado</translation>
     </message>
     <message>
-        <source>Niobio Cash wallet</source>
-        <translation>carteira De Niobio Cash</translation>
+        <source>Karbowanec wallet</source>
+        <translation>Niobio wallet</translation>
     </message>
     <message>
         <source>External port for p2p network protocol (if port forwarding used with NAT)</source>
@@ -1556,8 +1556,8 @@ Você tem certeza?</translation>
         </translation>
     </message>
     <message>
-        <source>Niobio Wallet %1</source>
-        <translation>Niobio Wallet в. %1</translation>
+        <source>Karbo Wallet %1</source>
+        <translation>Niobio Wallet %1</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
