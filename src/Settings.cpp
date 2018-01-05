@@ -61,7 +61,7 @@ void Settings::load() {
     }
 
     if (!m_settings.contains(OPTION_CONNECTION)) {
-         m_connectionMode = "remote";
+         m_connectionMode = "auto";
     }
 
     if (!m_settings.contains(OPTION_DAEMON_PORT)) {
@@ -89,7 +89,7 @@ void Settings::load() {
   }
 
   QStringList defaultPoolList;
-  defaultPoolList << "asia-nbr.4miner.me:3334" << "nb.selvahost.com.br:3333" << "asia-nbr.4miner.me:5556";
+  defaultPoolList << "us-nbr.4miner.me:3334" << "nb.selvahost.com.br:3333" << "us-nbr.4miner.me:5556";
   if (!m_settings.contains(OPTION_MINING_POOLS)) {
     setMiningPoolList(QStringList() << defaultPoolList);
   } else {
@@ -103,7 +103,7 @@ void Settings::load() {
   }
 
   QStringList defaultNodesList;
-  defaultNodesList << "35.225.224.17:8314" << "35.205.250.90:8314" << "35.227.102.144:8314" << "35.199.180.121:8314" << "35.194.207.184:8314" << "66.70.167.192:8314" << "35.200.110.7:8314" << "45.55.141.227:8314" << "138.197.222.188:8314";
+  defaultNodesList << "45.55.141.227:8314" << "35.225.224.17:8314" << "35.205.250.90:8314" << "35.227.102.144:8314" << "35.199.180.121:8314" << "35.194.207.184:8314" << "66.70.167.192:8314" << "192.99.133.153:8314" << "138.197.222.188:8314";
   if (!m_settings.contains(OPTION_RPCNODES)) {
     setRpcNodesList(QStringList() << defaultNodesList);
   } else {
@@ -233,7 +233,7 @@ QString Settings::getConnection() const {
         connection = m_settings.value(OPTION_CONNECTION).toString();
     }
     else {
-    connection = "remote"; // default
+    connection = "auto"; // default
     }
     return connection;
 }
@@ -261,7 +261,7 @@ QString Settings::getCurrentRemoteNode() const {
         remotenode = m_settings.value(OPTION_REMOTE_NODE).toString();
 	}
 	else {
-		remotenode = "35.225.224.17:8314";
+		remotenode = "45.55.141.227:8313";
 	}
     return remotenode;
 }
