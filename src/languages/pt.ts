@@ -1524,8 +1524,8 @@ Você tem certeza?</translation>
         <translation type="vanished">Wallet. %2 (%1)</translation>
     </message>
     <message>
-        <source>More info can be found at www.niobiocash.com in Documentation section</source>
-        <translation>Para mais informações, acesse www.niobiocash.com na seção Documentação.</translation>
+        <source>More info can be found at www.karbowanec.com in Documentation section</source>
+        <translation>Para mais informações, acesse www.niobiocash.com</translation>
     </message>
     <message>
         <source>Connection settings changed</source>
@@ -1551,8 +1551,7 @@ Você tem certeza?</translation>
         <source>%n active connection(s)</source>
         <translation>
             <numerusform>%n conexão ativa</numerusform>
-            <numerusform>%n conexão ativa</numerusform>
-            <numerusform>%n conexão ativa</numerusform>
+            <numerusform>%n conexões ativas</numerusform>
         </translation>
     </message>
     <message>
