@@ -1385,7 +1385,7 @@ Do you want to go to download page?</source>
         <translation>Ejecutar la aplicación en modo minimizado</translation>
     </message>
     <message>
-        <source>Karbowanec wallet</source>
+        <source>Niobio wallet</source>
         <translation>El monedero de Karbowanec</translation>
     </message>
     <message>

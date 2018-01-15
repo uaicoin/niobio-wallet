@@ -1350,7 +1350,7 @@ Geben Sie eine Liste von Peers an, zu denen nur eine Verbindung hergestellt werd
         <translation>Anwendung minimiert ausführen</translation>
     </message>
     <message>
-        <source>Karbowanec wallet</source>
+        <source>Niobio wallet</source>
         <translation>Niobio Wallet</translation>
     </message>
     <message>

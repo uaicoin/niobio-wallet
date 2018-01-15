@@ -1382,7 +1382,7 @@ Czy chesz otworzyć stronę pobierania w przeglądarce?</translation>
         <translation>Uruchom aplikację w trybie zminimalizowanym</translation>
     </message>
     <message>
-        <source>Karbowanec wallet</source>
+        <source>Niobio wallet</source>
         <translation>Portfel Niobio</translation>
     </message>
     <message>

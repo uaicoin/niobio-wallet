@@ -1368,7 +1368,7 @@ Você quer ir à página de dowload?</translation>
         <translation>Execute o programa minimizado</translation>
     </message>
     <message>
-        <source>Karbowanec wallet</source>
+        <source>Niobio wallet</source>
         <translation>Niobio wallet</translation>
     </message>
     <message>
