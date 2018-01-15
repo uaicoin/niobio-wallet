@@ -1535,7 +1535,7 @@ Are you sure?</source>
     </message>
     <message>
         <source>%1 Wallet %2</source>
-        <translation type="vanished">Карбованець в. %2 (%1)</translation>
+        <translation type="vanished">Niobio в. %2 (%1)</translation>
     </message>
     <message>
         <source>More info can be found at www.karbowanec.com in Documentation section</source>
@@ -1571,7 +1571,7 @@ Are you sure?</source>
     </message>
     <message>
         <source>Karbo Wallet %1</source>
-        <translation>Карбованець в. %1</translation>
+        <translation>Niobio в. %1</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s)</source>
@@ -1595,7 +1595,7 @@ Are you sure?</source>
     </message>
     <message>
         <source>Karbo Wallet</source>
-        <translation type="vanished">Карбованець</translation>
+        <translation type="vanished">Niobio</translation>
     </message>
     <message>
         <source>New transaction received</source>
