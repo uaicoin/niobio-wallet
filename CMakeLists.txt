@@ -207,7 +207,7 @@ elseif (UNIX)
     file(GLOB_RECURSE OBJC_SOURCES src/*.mm)
     set(SOURCES ${SOURCES} ${OBJC_SOURCES})
     set(PLATFORM_DIR OSX)
-    set(MACOSX_BUNDLE_INFO_STRING "Karbowanec GUI wallet")
+    set(MACOSX_BUNDLE_INFO_STRING "Niobio GUI wallet")
     set(MACOSX_BUNDLE_LONG_VERSION_STRING "${VERSION_VERSION}.${VERSION_MINOR}.${VERSION_PATCH}")
     set(MACOSX_BUNDLE_BUNDLE_NAME "Карбованець")
     set(MACOSX_BUNDLE_SHORT_VERSION_STRING "${VERSION_VERSION}.${VERSION_MINOR}.${VERSION_PATCH}")
@@ -266,7 +266,7 @@ qt5_use_modules(${PROJECT_NAME} Widgets Gui Network)
 
 set(CPACK_PACKAGE_NAME ${CN_PROJECT_NAME})
 set(CPACK_PACKAGE_VERSION ${CN_VERSION})
-set(CPACK_PACKAGE_VENDOR "Karbowanec-project")
+set(CPACK_PACKAGE_VENDOR "Niobio-project")
 set(CPACK_PACKAGE_CONTACT "http://karbowanec.com")
 set(CPACK_STRIP_FILES ON)
 if (APPLE)
@@ -289,9 +289,9 @@ elseif (UNIX)
         set(CPACK_DEBIAN_PACKAGE_MAINTAINER "${CPACK_PACKAGE_VENDOR} <krbcoin@ukr.net>")
         set(CPACK_DEBIAN_PACKAGE_SECTION Office)
         set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS ON)
-        set(CPACK_DEBIAN_PACKAGE_DESCRIPTION "Karbowanec KRB wallet
- Karbowanec is Ukrainian decentralized, privacy oriented peer-to-peer
- cryptocurrency. It is open-source, nobody owns or controls Karbowanec
+        set(CPACK_DEBIAN_PACKAGE_DESCRIPTION "Niobio NBR wallet
+ Niobio is Brazillian decentralized, privacy oriented peer-to-peer
+ cryptocurrency. It is open-source, nobody owns or controls Niobio
  and everyone can take part.")
 set(CPACK_PACKAGE_FILE_NAME "${CPACK_DEBIAN_PACKAGE_NAME}-${CPACK_PACKAGE_VERSION}-${VERSION_RELEASE}${CPACK_SYSTEM_NAME}")
     else()
@@ -301,10 +301,10 @@ set(CPACK_PACKAGE_FILE_NAME "${CPACK_DEBIAN_PACKAGE_NAME}-${CPACK_PACKAGE_VERSIO
         set(CPACK_RPM_PACKAGE_LICENSE "MIT")
         set(CPACK_RPM_PACKAGE_GROUP Office)
         set(CPACK_RPM_PACKAGE_REQUIRES "qt5-qtbase >= 5.3.2, qt5-qtbase-gui >= 5.3.2")
-        set(CPACK_RPM_PACKAGE_SUMMARY "Karbowanec KRB wallet")
-        set(CPACK_RPM_PACKAGE_DESCRIPTION "Karbowanec KRB wallet
- Karbowanec is Ukrainian decentrilized, privacy oriented peer-to-peer
- cryptocurrency. It is open-source, nobody owns or controls Karbowanec
+        set(CPACK_RPM_PACKAGE_SUMMARY "Niobio NBR wallet")
+        set(CPACK_RPM_PACKAGE_DESCRIPTION "Niobio NBR wallet
+ Niobio is Brazilian decentrilized, privacy oriented peer-to-peer
+ cryptocurrency. It is open-source, nobody owns or controls Niobio
  and everyone can take part.")
 set(CPACK_PACKAGE_FILE_NAME "${CPACK_PACKAGE_NAME}-${CPACK_PACKAGE_VERSION}-${VERSION_RELEASE}${CPACK_SYSTEM_NAME}")
     endif ()
