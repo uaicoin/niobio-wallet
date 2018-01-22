@@ -10,7 +10,7 @@
 #include <QNetworkReply>
 #include <QUrl>
 
-const static QString KRBCOIN_UPDATE_URL = "http://niobio.money/download/update.txt";
+const static QString NBRCOIN_UPDATE_URL = "https://raw.githubusercontent.com/niobio-cash/Downloads/master/update.txt";
 
 class Updater : public QObject
 {
