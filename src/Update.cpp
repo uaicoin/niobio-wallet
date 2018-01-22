@@ -66,7 +66,7 @@ void Updater::checkForUpdate()
     {
         connect(manager, SIGNAL(finished(QNetworkReply*)),
                 this, SLOT(replyFinished(QNetworkReply*)));
-        manager->get(QNetworkRequest(QUrl(KRBCOIN_UPDATE_URL)));
+        manager->get(QNetworkRequest(QUrl(NBRCOIN_UPDATE_URL)));
     }
 }
 
