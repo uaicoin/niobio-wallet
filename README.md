@@ -5,6 +5,7 @@ git clone https://github.com/niobio-cash/niobio-wallet.git
 ```
 
 **2. Install the dependencies**
+- g++
 - cmake
 - qt5
 
