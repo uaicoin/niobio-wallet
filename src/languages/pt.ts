@@ -186,11 +186,11 @@
 <context>
     <name>ConfirmSendDialog</name>
     <message>
-        <source>Comfirm sending %1 KRB</source>
+        <source>Comfirm sending %1 NBR</source>
         <translation>Confirmar envio %1 NBR</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 KRB&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 NBR&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Você tem certeza que quer enviar &lt;strong&gt;%1 NBR&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
@@ -1000,7 +1000,7 @@ Você quer ir à página de dowload?</translation>
         <translation></translation>
     </message>
     <message>
-        <source>Anonimity level:</source>
+        <source>Anonymity level:</source>
         <translation>Nível de privacidade:</translation>
     </message>
     <message>
@@ -1383,7 +1383,7 @@ Você quer ir à página de dowload?</translation>
 <context>
     <name>WalletGui::ConfirmSendDialog</name>
     <message>
-        <source>Confirm sending %1 KRB</source>
+        <source>Confirm sending %1 NBR</source>
         <translation>Confirme enviar %1 NBR.</translation>
     </message>
     <message>
