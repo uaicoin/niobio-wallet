@@ -981,7 +981,7 @@ Möchten Sie die Download Seite besuchen?</translation>
         <translation>Frame</translation>
     </message>
     <message>
-        <source>Anonimity level:</source>
+        <source>Anonymity level:</source>
         <translation>Anonimity Level:</translation>
     </message>
     <message>

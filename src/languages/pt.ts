@@ -1044,7 +1044,7 @@ Você quer ir à página de dowload?</translation>
         <translation></translation>
     </message>
     <message>
-        <source>Anonimity level:</source>
+        <source>Anonymity level:</source>
         <translation type="vanished">Nível de privacidade:</translation>
     </message>
     <message>
