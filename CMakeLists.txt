@@ -18,7 +18,9 @@ include_directories(${CMAKE_BINARY_DIR}
     cryptonote/src
     libqrencode)
 
-set (CMAKE_PREFIX_PATH "C:\\Qt\\Qt5.9.0\\5.9\\msvc2017_64")
+if (WIN32)
+	set (CMAKE_PREFIX_PATH "C:\\Qt\\Qt5.9.0\\5.9\\msvc2017_64")
+endif()
 
 find_package(Qt5Gui REQUIRED)
 find_package(Qt5Widgets REQUIRED)
