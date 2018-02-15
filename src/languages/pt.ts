@@ -2011,7 +2011,7 @@ Você tem certeza?</translation>
     <name>WalletGui::WalletAdapter</name>
     <message>
         <source>Opening wallet</source>
-        <translation>Abir Wallet</translation>
+        <translation>Abrir carteira</translation>
     </message>
     <message>
         <source>Importing keys</source>
