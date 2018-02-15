@@ -1964,7 +1964,7 @@ Você tem certeza?</translation>
     </message>
     <message>
         <source>Incoming transaction, unconfirmed</source>
-        <translation>Transação de entrada não confirmada</translation>
+        <translation>Transação de entrada, não confirmada</translation>
     </message>
     <message>
         <source>Mined, confirmations</source>
@@ -1981,29 +1981,29 @@ Você tem certeza?</translation>
     <message numerus="yes">
         <source>Incoming transaction, %n confirmation(s)</source>
         <translation>
-            <numerusform>Transação de entrada,%n de confirmação</numerusform>
-            <numerusform>Transação de entrada,%n de confirmação</numerusform>
+            <numerusform>Transação de entrada, %n de confirmação</numerusform>
+            <numerusform>Transação de entrada, %n de confirmações</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>Mined, %n confirmation(s)</source>
         <translation>
-            <numerusform>Construído,%n confirmação</numerusform>
-            <numerusform>Construído,%n confirmação</numerusform>
+            <numerusform>Construído, %n confirmação</numerusform>
+            <numerusform>Construído, %n confirmações</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>Sent to yourself, %n confirmation(s)</source>
         <translation>
-            <numerusform>Excluído para si mesmo,%n confirmação</numerusform>
-            <numerusform>Excluído para si mesmo,%n confirmação</numerusform>
+            <numerusform>Excluído para si mesmo, %n confirmação</numerusform>
+            <numerusform>Excluído para si mesmo, %n confirmações</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>Outgoing transaction, %n confirmation(s)</source>
         <translation>
-            <numerusform>Transação de saída %n confirmação</numerusform>
-            <numerusform>Transação de saída %n confirmação</numerusform>
+            <numerusform>Transação de saída, %n confirmação</numerusform>
+            <numerusform>Transação de saída, %n confirmações</numerusform>
         </translation>
     </message>
 </context>
