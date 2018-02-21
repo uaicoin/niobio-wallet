@@ -546,7 +546,7 @@ Por favor aguarde...</translation>
     </message>
     <message>
         <source>Reset wallet</source>
-        <translation>Resetar Carteira</translation>
+        <translation>Resetar carteira</translation>
     </message>
     <message>
         <source>Contacts</source>
@@ -1069,7 +1069,7 @@ Você quer ir à página de dowload?</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Comissão:</translation>
+        <translation>Taxa:</translation>
     </message>
     <message>
         <source>Payment identifier issued by payee (exchange, shop or other entity)</source>

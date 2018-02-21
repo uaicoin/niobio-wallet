@@ -2,6 +2,7 @@
 
 ```
 git clone https://github.com/niobio-cash/niobio-wallet.git
+git submodule update --init
 ```
 
 **2. Install the dependencies**
@@ -9,10 +10,11 @@ git clone https://github.com/niobio-cash/niobio-wallet.git
 - cmake
 - boost
 - qt5
+- qttools5 <only needed for generate/update .qm language files>
 
 On Ubuntu:
 ```
-sudo apt-get install qt5-default cmake libboost-all-dev g++
+sudo apt-get install qt5-default qttools5-dev-tools cmake libboost-all-dev g++
 ```
 
 **3. Build**
