@@ -7,11 +7,12 @@ git clone https://github.com/niobio-cash/niobio-wallet.git
 **2. Install the dependencies**
 - g++
 - cmake
+- boost
 - qt5
 
 On Ubuntu:
 ```
-sudo apt-get install qt5-default cmake g++
+sudo apt-get install qt5-default cmake libboost-all-dev g++
 ```
 
 **3. Build**
