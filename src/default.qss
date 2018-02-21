@@ -11,11 +11,11 @@ QTabBar {
 }
 
 QMainWindow {
-	background:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0	rgb(255, 255, 255) stop: 1.0 rgb(97, 196, 180)) url(":/images/bg.png") no-repeat bottom left;
+	background:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0	rgb(255, 255, 255) stop: 1 rgb(130, 170, 154)) url(":/images/bg.png") no-repeat bottom left;
 }
 
 QDialog {
-	background:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0	rgb(255, 255, 255) stop: 1.0 rgb(97, 196, 180));
+	background:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0	rgb(255, 255, 255) stop: 1 rgb(130, 170, 154));
 }
 
 QPushButton, QToolButton {
@@ -24,7 +24,7 @@ QPushButton, QToolButton {
 	border-radius: 2px;
 	padding: 2px 8px;
 	color: #fff;
-	background-color: #48a84d;
+	background-color: #065635;
 	border: none;
 	height: 26px;
 	selection-background-color: transparent;
@@ -47,7 +47,7 @@ QToolButton:focus {
 
 QPushButton:default,
 QToolButton:default {
-	background-color: #3c8c40;
+	background-color: #065635;
 }
 
 QPushButton:hover,
@@ -66,7 +66,7 @@ QToolButton::focus:hover {
 }
 
 QLineEdit {
-	border: 1px solid #48a84d;
+	border: 1px solid #065635;
 	border-radius: 2px;
 	padding: 2px 8px;
 	background: rgba(255,255,255,0.9);
@@ -75,7 +75,7 @@ QLineEdit {
 }
 
 QTextEdit {
-	border: 1px solid #48a84d;
+	border: 1px solid #065635;
 	border-radius: 2px;
 	padding: 2px 8px;
 	background: rgba(255,255,255,0.9);
@@ -87,7 +87,7 @@ QLineEdit:focus, QSpinBox:focus, QDoubleSpinBox:focus, QComboBox:focus, QTextEdi
 }
 
 QSpinBox, QDoubleSpinBox, QComboBox {
-	border: 1px solid #48a84d;
+	border: 1px solid #065635;
 	border-radius: 2px;
 	padding: 2px 8px;
 	background: rgba(255,255,255,0.9);
@@ -306,7 +306,7 @@ QStatusBar#statusBar {
 
 QToolTip{
 	color: #ffffff;
-	background-color: #3c8c40;
+	background-color: #065635;
 	border: none;
 	padding: 4px;
 	opacity: 230;
