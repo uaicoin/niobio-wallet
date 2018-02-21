@@ -290,7 +290,7 @@
     </message>
     <message>
         <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 10 KRB.</source>
-        <translation type="vanished">A carteira se conectará a um host remoto que esteja sendo executado em uma rede local ou global. Selecione o node ou especifique o endereço IP ou o domínio e a porta do novo node. Neste modo, ele paga a comissão pelo nó na quantidade de 0,25% do valor da transferência, mas não mais de 10 NBR.</translation>
+        <translation type="vanished">A carteira se conectará a um host remoto que esteja sendo executado em uma rede local ou global. Selecione o node ou especifique o endereço IP ou o domínio e a porta do novo node. Neste modo, ele paga a taxa pelo nó na quantidade de 0,25% do valor da transferência, mas não mais de 10 NBR.</translation>
     </message>
     <message>
         <source>Remove node</source>
@@ -1788,7 +1788,7 @@ Você tem certeza?</translation>
     </message>
     <message>
         <source>Incorrect fee value</source>
-        <translation>Valor da comissão inválida</translation>
+        <translation>Valor da taxa inválida</translation>
     </message>
     <message>
         <source>Invalid payment ID</source>
@@ -1804,7 +1804,7 @@ Você tem certeza?</translation>
     </message>
     <message>
         <source>Available balance is insufficient to send this transaction. Have you excluded a fee?</source>
-        <translation>O saldo disponível não é suficiente para enviar esta transação. Você esqueceu de retirar uma comissão?</translation>
+        <translation>O saldo disponível não é suficiente para enviar esta transação. Você esqueceu de retirar uma taxa?</translation>
     </message>
 </context>
 <context>
@@ -1823,9 +1823,9 @@ Você tem certeza?</translation>
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Cantarell&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;span style=&quot; font-weight:600;&quot;&gt;Condição: &lt;/span&gt;%1&lt;/p&gt;&lt;br&gt;
 &lt;span style=&quot; font-weight:600;&quot;&gt;Data:&lt;/span&gt;%2&lt;/p&gt;&lt;br&gt;
-&lt;span style=&quot; font-weight:600;&quot;&gt;Data: &lt;/span&gt;%4&lt;/p&gt;&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Para: &lt;/span&gt;%4&lt;/p&gt;&lt;br&gt;
 &lt;span style=&quot; font-weight:600;&quot;&gt;Montante: &lt;/span&gt;%5&lt;/p&gt;&lt;br&gt;
-&lt;span style=&quot; font-weight:600;&quot;&gt;Comissão: &lt;/span&gt;%6&lt;/p&gt;&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Taxa: &lt;/span&gt;%6&lt;/p&gt;&lt;br&gt;
 &lt;span style=&quot; font-weight:600;&quot;&gt;ID de pagamento: &lt;/span&gt;%7&lt;/p&gt;&lt;br&gt;
 &lt;span style=&quot; font-weight:600;&quot;&gt;Hash de transação: &lt;/span&gt;%8&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
