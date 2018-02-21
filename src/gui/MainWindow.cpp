@@ -116,7 +116,8 @@ void MainWindow::connectToSignals() {
 }
 
 void MainWindow::initUi() {
-  setWindowTitle(QString(tr("Niobio Wallet %1")).arg(Settings::instance().getVersion()));
+  setWindowTitle(QString(tr("Niobio Wallet %1")).arg(Settings::instance().getVersion()) + " - " + Settings::instance().getWalletFile());
+
 #ifdef Q_OS_WIN32
   createTrayIcon();
 #endif
