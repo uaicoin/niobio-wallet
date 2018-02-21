@@ -37,12 +37,12 @@ QToolButton {
 
 QPushButton:pressed,
 QToolButton:pressed {
-	background-color: #1B5E20;
+	background-color: #065635;
 }
 
 QPushButton:focus,
 QToolButton:focus {
-	background-color: #27496d;
+	background-color: #448067;
 }
 
 QPushButton:default,
@@ -52,17 +52,17 @@ QToolButton:default {
 
 QPushButton:hover,
 QToolButton:hover {
-	background-color: #00C853;
+	background-color: #0a8572;
 }
 
 QPushButton:disabled,
 QToolButton:disabled {
-	background-color: #84acd3;
+	background-color: #82aa9a;
 }
 
 QPushButton::focus:hover,
 QToolButton::focus:hover {
-	background-color: #1B5E20;
+	background-color: #0a8572;
 }
 
 QLineEdit {
@@ -83,7 +83,7 @@ QTextEdit {
 }
 
 QLineEdit:focus, QSpinBox:focus, QDoubleSpinBox:focus, QComboBox:focus, QTextEdit:focus {
-	border: 1px solid #27496d;
+	border: 1px solid #448067;
 }
 
 QSpinBox, QDoubleSpinBox, QComboBox {
