@@ -115,8 +115,12 @@ void MainWindow::connectToSignals() {
   connect(m_connectionStateIconLabel, SIGNAL(clicked()), this, SLOT(showStatusInfo()));
 }
 
+void MainWindow::setDefaultWindowTitle() {
+    setWindowTitle(QString(tr("Niobio Wallet %1")).arg(Settings::instance().getVersion()) + " - " + Settings::instance().getWalletFile());
+}
+
 void MainWindow::initUi() {
-  setWindowTitle(QString(tr("Niobio Wallet %1")).arg(Settings::instance().getVersion()) + " - " + Settings::instance().getWalletFile());
+    setDefaultWindowTitle();
 
 #ifdef Q_OS_WIN32
   createTrayIcon();
@@ -810,6 +814,9 @@ void MainWindow::walletSynchronized(int _error, const QString& _error_text) {
 
 void MainWindow::walletOpened(bool _error, const QString& _error_text) {
   if (!_error) {
+
+      setDefaultWindowTitle();
+
     m_ui->accountToolBar->show();
     m_ui->m_closeWalletAction->setEnabled(true);
     m_ui->m_exportTrackingKeyAction->setEnabled(true);

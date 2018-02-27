@@ -65,6 +65,7 @@ private:
 
   void connectToSignals();
   void initUi();
+  void setDefaultWindowTitle();
   void createTrayIcon();
   void createTrayIconMenu();
 
