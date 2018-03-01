@@ -103,7 +103,7 @@ void Settings::load() {
   }
 
   QStringList defaultNodesList;
-  defaultNodesList << "45.55.141.227:8314" << "35.225.224.17:8314" << "35.205.250.90:8314" << "35.227.102.144:8314" << "35.199.180.121:8314" << "35.194.207.184:8314" << "66.70.167.192:8314" << "192.99.133.153:8314" << "138.197.222.188:8314";
+  defaultNodesList << "remote-nbr-001.niobioco.in:8314" << "66.70.167.192:8314" << "192.99.133.153:8314" << "138.197.222.188:8314";
   if (!m_settings.contains(OPTION_RPCNODES)) {
     setRpcNodesList(QStringList() << defaultNodesList);
   } else {
