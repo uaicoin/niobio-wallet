@@ -289,16 +289,12 @@
         <translation>Adicionar node</translation>
     </message>
     <message>
-        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 10 KRB.</source>
-        <translation type="vanished">A carteira se conectará a um host remoto que esteja sendo executado em uma rede local ou global. Selecione o node ou especifique o endereço IP ou o domínio e a porta do novo node. Neste modo, ele paga a taxa pelo nó na quantidade de 0,25% do valor da transferência, mas não mais de 10 NBR.</translation>
+        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 10 NBR.</source>
+        <translation>A carteira se conectará a um host remoto que esteja sendo executado em uma rede local ou global. Selecione o node ou especifique o endereço IP ou o domínio e a porta do novo node. Neste modo, ele paga a taxa pelo nó na quantidade de 0,25% do valor da transferência, mas não mais que 10 NBR.</translation>
     </message>
     <message>
         <source>Remove node</source>
         <translation>Remover node</translation>
-    </message>
-    <message>
-        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 10 NBR.</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
