@@ -103,7 +103,12 @@ void Settings::load() {
   }
 
   QStringList defaultNodesList;
-  defaultNodesList << "remote-nbr-001.niobioco.in:8314" << "66.70.167.192:8314" << "192.99.133.153:8314" << "138.197.222.188:8314";
+  defaultNodesList << "remote-nbr-hydra.niobioco.in:8314"
+  << "remote-nbr-centaurus.niobioco.in:8314"
+  << "niobiocash.rdp.network:8314"
+  << "66.70.167.192:8314"
+  << "192.99.133.153:8314"
+  << "138.197.222.188:8314";
   if (!m_settings.contains(OPTION_RPCNODES)) {
     setRpcNodesList(QStringList() << defaultNodesList);
   } else {
