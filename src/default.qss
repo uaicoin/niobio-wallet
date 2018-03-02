@@ -11,7 +11,7 @@ QTabBar {
 }
 
 QMainWindow {
-	background:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0	rgb(255, 255, 255) stop: 1 rgb(180, 204, 194)) url(":/images/bg.png") no-repeat bottom left;
+	background:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0	rgb(255, 255, 255) stop: 1 rgb(180, 204, 194));
 }
 
 QDialog {
@@ -233,7 +233,7 @@ QToolBar {
 }
 
 QToolBar#toolBar {
-	background-color: rgba(32, 55, 92, 0.9);
+	background-color: rgba(10, 10, 10, 0.9);
 	width: 150px; 
 	min-width: 150px; 
 	spacing: 0; 
