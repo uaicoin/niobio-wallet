@@ -233,7 +233,7 @@ QToolBar {
 }
 
 QToolBar#toolBar {
-	background-color: rgba(32, 55, 92, 0.9);
+	background-color: rgba(10, 10, 10, 0.9);
 	width: 150px; 
 	min-width: 150px; 
 	spacing: 0; 
