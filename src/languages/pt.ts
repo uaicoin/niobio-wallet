@@ -258,19 +258,19 @@
     </message>
     <message>
         <source>Wallet will connect to local daemon on default port. In case of no local daemon running it will launch built-in node.</source>
-        <translation>A carteira se conectará ao daemon local através da porta padrão. Se o daemon local não for iniciado, a carteira iniciará o node incorporado.</translation>
+        <translation>A carteira se conectará ao node local através da porta padrão. Se o node local não for iniciado, a carteira iniciará o node incorporado.</translation>
     </message>
     <message>
         <source>Embedded</source>
-        <translation>Inserir</translation>
+        <translation>Node Embutido</translation>
     </message>
     <message>
         <source>Built-in embedded node will be used.</source>
-        <translation>O node de rede inserido será iniciado.</translation>
+        <translation>Um node interno será iniciado e a blockchain será baixada.</translation>
     </message>
     <message>
         <source>Local daemon</source>
-        <translation>Deamon Local</translation>
+        <translation>Node Local</translation>
     </message>
     <message>
         <source>Port: </source>
@@ -278,11 +278,11 @@
     </message>
     <message>
         <source>Wallet will connect to local daemon on specified port.</source>
-        <translation>A carteira se conectará ao daemon local através da porta especificada.</translation>
+        <translation>A carteira se conectará ao node local através da porta especificada.</translation>
     </message>
     <message>
         <source>Remote daemon</source>
-        <translation>Deamon Remoto</translation>
+        <translation>Node Remoto</translation>
     </message>
     <message>
         <source>Add node</source>
@@ -290,7 +290,7 @@
     </message>
     <message>
         <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 10 NBR.</source>
-        <translation>A carteira se conectará a um host remoto que esteja sendo executado em uma rede local ou global. Selecione o node ou especifique o endereço IP ou o domínio e a porta do novo node. Neste modo, ele paga a taxa pelo nó na quantidade de 0,25% do valor da transferência, mas não mais que 10 NBR.</translation>
+        <translation>A carteira se conectará a um node remoto que esteja sendo executado em uma rede local ou global. Selecione o node ou especifique o endereço IP ou o domínio e a porta do novo node. Neste modo, você paga a taxa pelo node na quantidade de 0,25% do valor da transferência, mas não mais que 10 NBR.</translation>
     </message>
     <message>
         <source>Remove node</source>
@@ -542,7 +542,7 @@ Por favor aguarde...</translation>
     </message>
     <message>
         <source>Reset wallet</source>
-        <translation>Resetar carteira</translation>
+        <translation>Ressincronizar saldo</translation>
     </message>
     <message>
         <source>Contacts</source>
