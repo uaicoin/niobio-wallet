@@ -274,8 +274,11 @@ QToolBar#toolBar QToolButton::checked:hover {
 	background-color: rgba(10, 133, 114, 0.4);
 }
 
+#statusBar {
+	color: #FFFFFF;
+}
 QStatusBar#statusBar {
-	background-color: rgba(222, 234, 250, 0.7);
+	background-color: rgba(10, 133, 114, 0.7);
 }
 
 #m_connectionDialogLabel1, #m_connectionDialogLabel2, #m_connectionDialogLabel3, #m_connectionDialogLabel4{
