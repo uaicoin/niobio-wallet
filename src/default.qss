@@ -11,11 +11,11 @@ QTabBar {
 }
 
 QMainWindow {
-	background:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0	rgb(255, 255, 255) stop: 1 rgb(180, 204, 194));
+	background-color: #ffffff;
 }
 
 QDialog {
-	background:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0	rgb(255, 255, 255) stop: 1 rgb(180, 204, 194));
+	background-color: #ffffff;
 }
 
 QPushButton, QToolButton {
@@ -275,7 +275,7 @@ QToolBar#toolBar QToolButton::checked:hover {
 }
 
 QStatusBar#statusBar {
-	background-color: rgba(222, 234, 250, 0.7);
+	background-color: #e9f0ed;
 }
 
 #m_connectionDialogLabel1, #m_connectionDialogLabel2, #m_connectionDialogLabel3, #m_connectionDialogLabel4{
