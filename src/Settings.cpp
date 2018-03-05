@@ -89,7 +89,7 @@ void Settings::load() {
   }
 
   QStringList defaultPoolList;
-  defaultPoolList << "nbr.openminer.net:47900" << "nb.selvahost.com.br:3333" << "us-nbr.4miner.me:3334" << "nbr-pool.ddns.net:3333" << "niobiopool.com.br:3331" << "us-nbr.4miner.me:5556";
+  defaultPoolList << "nbr.openminer.net:47900" << "nb.selvahost.com.br:3333" << "us-nbr.4miner.me:3334" << "nbr-pool.ddns.net:3333" << "niobiopool.com.br:3331" << "us-nbr.4miner.me:5556" << "us.minerpool.site:3334";
   if (!m_settings.contains(OPTION_MINING_POOLS)) {
     setMiningPoolList(QStringList() << defaultPoolList);
   } else {
