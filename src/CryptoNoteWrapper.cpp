@@ -427,7 +427,7 @@ public:
     m_coreConfig(coreConfig),
     m_netNodeConfig(netNodeConfig),
     m_protocolHandler(currency, m_dispatcher, m_core, nullptr, logManager),
-    m_core(currency, &m_protocolHandler, logManager, true),
+    m_core(currency, &m_protocolHandler, logManager, true, 2048), // FIXME: cache size should not be fixed here
     m_nodeServer(m_dispatcher, m_protocolHandler, logManager),
     m_node(m_core, m_protocolHandler) {
 
