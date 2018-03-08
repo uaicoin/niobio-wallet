@@ -933,8 +933,8 @@ Por favor aguarde...</translation>
         <translation>Carregando blockchain...</translation>
     </message>
     <message>
-        <source>%1 wallet already running</source>
-        <translation>Nióbio Wallet já está sendo executada</translation>
+        <source>%1 wallet already running or I cannot create lock file %2. Check your permissions.</source>
+        <translation>Nióbio Wallet já está sendo executada, ou estou tendo problema para criar o arquivo de lock em %2. Verifique suas permissões de escrita.</translation>
     </message>
     <message>
         <source>New version available</source>
