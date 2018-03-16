@@ -67,6 +67,7 @@ public Q_SLOTS:
   void copyAmount();
   void copyPaymentID();
   void showTxDetails();
+  void seeOnBlockExplorer();
   void computeSelected();
   void showTransactionDetails(const QModelIndex& _index);
   void walletClosed();

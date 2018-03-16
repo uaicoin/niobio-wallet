@@ -52,7 +52,7 @@
     </message>
     <message>
         <source> krb</source>
-        <translation> nbr</translation>
+        <translation type="vanished"> nbr</translation>
     </message>
     <message>
         <source>Frame</source>
@@ -64,6 +64,10 @@
     </message>
     <message>
         <source>0.00</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> nbr</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -157,6 +161,10 @@
     </message>
     <message>
         <source>Español</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Português</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -262,11 +270,15 @@
     </message>
     <message>
         <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 10 KRB.</source>
-        <translation>Кошелек будет подключаться к удаленному узлу в локальной или глобальной сети. Выберите узел или укажите IP адрес или домен и порт чтобы добавить новый. В этом режиме кошелек платит комиссию узлу в размере 0,25% от суммы транзакции, но не более 10 NBR.</translation>
+        <translation type="vanished">Кошелек будет подключаться к удаленному узлу в локальной или глобальной сети. Выберите узел или укажите IP адрес или домен и порт чтобы добавить новый. В этом режиме кошелек платит комиссию узлу в размере 0,25% от суммы транзакции, но не более 10 NBR.</translation>
     </message>
     <message>
         <source>Remove node</source>
         <translation>Удалить узел</translation>
+    </message>
+    <message>
+        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 10 NBR.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -860,7 +872,11 @@ Please wait...</source>
     <name>PaymentServer</name>
     <message>
         <source>Cannot start karbowanec: click-to-pay handler</source>
-        <translation>Не удалось запустить click-to-pay обработчик niobio:</translation>
+        <translation type="vanished">Не удалось запустить click-to-pay обработчик niobio:</translation>
+    </message>
+    <message>
+        <source>Cannot start niobio: click-to-pay handler</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -902,17 +918,21 @@ Please wait...</source>
     </message>
     <message>
         <source>%1 wallet already running</source>
-        <translation>Кошелек Карбованца уже запущен</translation>
+        <translation type="vanished">Кошелек Карбованца уже запущен</translation>
     </message>
     <message>
         <source>New version available</source>
-        <translation>Доступна новая версия</translation>
+        <translation type="vanished">Доступна новая версия</translation>
     </message>
     <message>
         <source>There is update available.
 Do you want to go to download page?</source>
-        <translation>Есть обновление кошелька.
+        <translation type="vanished">Есть обновление кошелька.
 Хотите открыть страницу загрузки?</translation>
+    </message>
+    <message>
+        <source>%1 wallet already running or I cannot create lock file %2. Check your permissions.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1183,11 +1203,11 @@ Do you want to go to download page?</source>
     <name>Updater</name>
     <message>
         <source>Unable to check for update</source>
-        <translation>Не удалось проверить наличие обновлений</translation>
+        <translation type="vanished">Не удалось проверить наличие обновлений</translation>
     </message>
     <message>
         <source>Error: %1</source>
-        <translation>Ошибка: %1</translation>
+        <translation type="vanished">Ошибка: %1</translation>
     </message>
 </context>
 <context>
@@ -1383,7 +1403,7 @@ Do you want to go to download page?</source>
     <name>WalletGui::ConfirmSendDialog</name>
     <message>
         <source>Confirm sending %1 KRB</source>
-        <translation>Подтвердите отправку %1 NBR</translation>
+        <translation type="vanished">Подтвердите отправку %1 NBR</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Payment ID: %1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -1392,6 +1412,10 @@ Do you want to go to download page?</source>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;without Payment ID&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Вы точно хотите выслать &lt;strong&gt;без идентификатора платежа&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <source>Confirm sending %1 NBR</source>
+        <translation type="unfinished">Подтвердите отправку %1 NBR</translation>
     </message>
 </context>
 <context>
@@ -1560,7 +1584,7 @@ Are you sure?</source>
     </message>
     <message>
         <source>Karbo Wallet %1</source>
-        <translation>Карбованец в. %1</translation>
+        <translation type="vanished">Карбованец в. %1</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s)</source>
@@ -1641,6 +1665,10 @@ Are you sure?</source>
     <message>
         <source>Wrong wallet file extension, wallet file should have &quot;.wallet&quot;, &quot;.keys&quot; or &quot;.trackingwallet&quot; extension.</source>
         <translation>Неверное расширение файла, файл кошелька должен иметь расширение &quot;.wallet&quot;, &quot;.keys&quot; или &quot;.trackingwallet&quot;.</translation>
+    </message>
+    <message>
+        <source>Niobio Wallet %1</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1879,6 +1907,10 @@ Are you sure?</source>
     <message>
         <source>Sent to myself</source>
         <translation>Высланные самому себе</translation>
+    </message>
+    <message>
+        <source>See on &amp;block explorer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
